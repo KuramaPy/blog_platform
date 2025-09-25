@@ -1,0 +1,10 @@
+# Ignore all __pycache__ directories and their contents
+
+__pycache__/
+# Ignore other unnecessary files
+.venv/
+media/
+migrations/
+staticfiles/
+# Include default media files (if needed)
+db.sqlite3
