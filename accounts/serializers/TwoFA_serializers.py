@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from models import User
 
-class TwoFA(serializers.ModelSerializer):
+class TwoFASerializer(serializers.ModelSerializer):
     TwoFA_is_enable = serializers.BooleanField()
     otp = serializers.CharField(max_length=6 ,min_length=6, required=False)
     
