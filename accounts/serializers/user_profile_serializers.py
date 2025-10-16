@@ -8,6 +8,11 @@ class UserProfileSerializer(serializers.ModelSerializer):
     phone_number = serializers.CharField()
     profile_pic = serializers.ImageField()
     avatar = serializers.ImageField()
+    bio = serializers.CharField()
+    location = serializers.CharField()
+    website = serializers.URLField()
+    social_links = serializers.URLField()
+    
     
     class Meta:
         model = User
