@@ -3,7 +3,7 @@ from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.decorators import action
 
-from serializers import UserProfileSerializer
+from ..serializers import UserProfileSerializer
 
 class UserProfileViewset(viewsets.GenericViewSet):
     serializer_class = UserProfileSerializer

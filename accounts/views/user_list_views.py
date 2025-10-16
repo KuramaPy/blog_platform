@@ -4,9 +4,9 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.filters import OrderingFilter , SearchFilter
 from django_filters.rest_framework import DjangoFilterBackend
 
-from models import User
-from serializers import UserListSerializer
-from permisions import IsSuperuserOrAdmin
+from ..models import User
+from ..serializers import UserListSerializer
+from ..permisions import IsSuperuserOrAdmin
 
 
 class UserListViewset(mixins.ListModelMixin,

@@ -5,8 +5,8 @@ from rest_framework.response import Response
 
 import secrets
 
-from serializers import PasswordResetSerializer ,PasswordChangeSerializer
-from models import User
+from ..serializers import PasswordResetSerializer ,PasswordChangeSerializer
+from ..models import User
 
 class PasswordViewset(viewsets.ViewSet):
     

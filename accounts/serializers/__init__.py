@@ -1,7 +1,7 @@
-from auth_serializers import UserRegisterSerializer, CustomTokenObtainPairSerializer
-from GoogleAuthResponse_serializers import GoogleAuthResponseSerializer
-from password_serializers import PasswordChangeSerializer , PasswordResetSerializer
-from TwoFA_serializers import TwoFASerializer
-from user_info_serializers import UserInfoSerializer
-from user_list_serializers import UserListSerializer
-from user_profile_serializers import UserProfileSerializer
+from .auth_serializers import UserRegisterSerializer, CustomTokenObtainPairSerializer
+from .GoogleAuthResponse_serializers import GoogleAuthResponseSerializer
+from .password_serializers import PasswordChangeSerializer , PasswordResetSerializer
+from .TwoFA_serializers import TwoFASerializer
+from .user_info_serializers import UserInfoSerializer
+from .user_list_serializers import UserListSerializer
+from .user_profile_serializers import UserProfileSerializer

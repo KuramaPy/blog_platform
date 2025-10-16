@@ -9,8 +9,8 @@ import qrcode
 import base64
 from io import BytesIO
 
-from models import User
-from serializers import TwoFASerializer
+from ..models import User
+from ..serializers import TwoFASerializer
 
 
 class TwoFAViewset(viewsets.GenericViewSet):
